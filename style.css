@@ -1,0 +1,84 @@
+body {
+  background-color: #7ED4AD;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: normal;
+  font-weight: 300;
+  display: block;
+  margin: 8px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  line-height: 16px;
+  color: #536493;
+}
+
+.container {
+  background-color: #FBFBFB;
+  width: 800px;
+  margin: 5px auto;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .3);
+  text-align: center;
+  border-radius: 4px;
+}
+
+.profile-img {
+  border-radius: 50%;
+}
+
+.topics {
+  display: flex;
+  justify-content: space-between;
+  margin: 35px 0;
+}
+
+.card {
+  width: 230px;
+  height: 200px;
+  padding: 5px 8px;
+  font-size: 13px;
+  text-align: center;
+  background-color: #53649373;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .2);
+}
+
+p {
+  display: block;
+  font-family: "Lora", serif;
+}
+
+.display-socials {
+  display: inline-flex;
+  padding: 0;
+}
+
+.icon-style {
+  font-size: 40px;
+  color: #536493;
+  padding-right: 16px;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.icon-style a:hover {
+  transform: scale(1.2);
+  color: #303952;
+}
+
+h3 {
+  text-align: center;
+}
+
+ul {
+  display: block;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
